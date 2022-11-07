@@ -1,0 +1,37 @@
+{
+  "name": "stylelint-config-random-order",
+  "version": "0.0.1",
+  "description": "A stylelint config that sorts CSS properties with stylelint-order.",
+  "keywords": [
+    "stylelint",
+    "stylelint-order",
+    "stylelint-config",
+    "css properties order"
+  ],
+  "homepage": "https://github.com/islinxuan/stylelint-config-random-order",
+  "repository": "islinxuan/stylelint-config-random-order",
+  "author": "Lin Xuan <islinxuan@outlook.com>",
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "index.js",
+  "files": [
+    "groups/*.js"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "stylelint-order": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/eslint-parser": "^7.19.1",
+    "eslint": "^8.27.0",
+    "eslint-config-alloy": "^4.7.0",
+    "mocha": "^10.1.0",
+    "stylelint": "^14.14.1"
+  },
+  "peerDependencies": {
+    "stylelint": ">=14"
+  }
+}
