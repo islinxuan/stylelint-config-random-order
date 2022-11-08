@@ -18,6 +18,7 @@
     "groups/*.js"
   ],
   "scripts": {
+    "lint": "eslint **/*.js",
     "test": "mocha"
   },
   "dependencies": {

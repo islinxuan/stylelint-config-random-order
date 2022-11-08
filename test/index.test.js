@@ -13,7 +13,7 @@ const runStylelint = async (css) => {
   return results[0];
 };
 
-describe("code review", () => {
+describe("Code lint complement", () => {
   it("no repeat properties", () => {
     const props = [];
     for (const groups of randomOrder.rules["order/properties-order"]) {
@@ -23,13 +23,12 @@ describe("code review", () => {
   });
 });
 
-describe("stylelint", () => {
+// stylelint test/*.css  --config index.js --max-warnings 0
+describe("Code test", () => {
   it("with incorrect order", async () => {
     const results = await runStylelint(fixture);
     assert.ok(results.errored);
     assert.equal(results.warnings.length, intentionalwrong);
-
-    // stylelint test/*.css  --config index.js --max-warnings 0
     assert.equal(
       results.warnings[0].text.trim(),
       `Expected "display" to come before "box-sizing" (order/properties-order)`
