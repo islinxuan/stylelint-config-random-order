@@ -1,12 +1,16 @@
 # stylelint-config-random-order
 
-一份 stylelint 配置，使用 [stylelint-order](https://github.com/hudochenkov/stylelint-order) 对 CSS 属性\* 进行排序。
+![GitHub](https://img.shields.io/github/license/islinxuan/stylelint-config-random-order?label=License)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/islinxuan/stylelint-config-random-order/CI?label=CI&logo=github)
+![npm](https://img.shields.io/npm/v/stylelint-config-random-order?logo=npm)
+
+一份 Stylelint 配置，使用 [stylelint-order](https://github.com/hudochenkov/stylelint-order) 对 CSS 属性\* 进行排序。
 
 \* 包含眼熟的和感兴趣的，欢迎补充。
 
 ## 用法
 
-安装 [stylelint](https://github.com/stylelint/stylelint)，并将此包添加到你的项目中。
+安装 [Stylelint](https://github.com/stylelint/stylelint)，并将此包添加到你的项目中。
 
 ```sh
 pnpm add -D stylelint stylelint-config-random-order
