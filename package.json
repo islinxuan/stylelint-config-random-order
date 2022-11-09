@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-random-order",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A stylelint config that sorts CSS properties with stylelint-order.",
   "keywords": [
     "stylelint",
@@ -8,8 +8,7 @@
     "stylelint-config",
     "css properties order"
   ],
-  "homepage": "https://github.com/islinxuan/stylelint-config-random-order",
-  "repository": "islinxuan/stylelint-config-random-order",
+  "repository": "https://github.com/islinxuan/stylelint-config-random-order",
   "author": "Lin Xuan <islinxuan@outlook.com>",
   "license": "MIT",
   "type": "commonjs",
