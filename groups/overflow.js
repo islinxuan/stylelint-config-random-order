@@ -2,6 +2,8 @@ module.exports = [
   "overflow",
   "overflow-x",
   "overflow-y",
+  "overflow-inline",
+  "overflow-block",
   "scrollbar-color",
   "scrollbar-width",
   "scrollbar-gutter",
@@ -35,6 +37,4 @@ module.exports = [
   "overscroll-behavior-y",
   "overscroll-behavior-inline",
   "overscroll-behavior-block",
-  "user-select",
-  "cursor",
 ];

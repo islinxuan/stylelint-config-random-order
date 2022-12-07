@@ -1,7 +1,10 @@
 module.exports = [
   "visibility",
-  "transform",
+  "translate",
+  "rotate",
+  "scale",
   "transform-origin",
+  "transform",
   "transition",
   "transition-property",
   "transition-duration",

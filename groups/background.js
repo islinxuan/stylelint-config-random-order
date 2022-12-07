@@ -1,5 +1,4 @@
 module.exports = [
-  "color-scheme",
   "background",
   "background-image",
   "background-position",
@@ -11,13 +10,13 @@ module.exports = [
   "background-repeat-y",
   "background-attachment",
   "background-color",
+  "clip-path",
   "backdrop-filter",
   "filter",
-  "opacity",
   "outline",
-  "outline-width",
-  "outline-style",
   "outline-color",
+  "outline-style",
+  "outline-width",
   "outline-offset",
   "box-shadow",
 ];

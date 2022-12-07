@@ -1,10 +1,10 @@
 const position = require("./groups/position.js");
 const layout = require("./groups/layout.js");
-const borderBox = require("./groups/borderbox.js");
-const typography = require("./groups/typography.js");
-const interaction = require("./groups/interaction.js");
+const sizing = require("./groups/sizing.js");
+const foreground = require("./groups/foreground.js");
 const background = require("./groups/background.js");
-const transition = require("./groups/transition.js");
+const overflow = require("./groups/overflow.js");
+const transform = require("./groups/transform.js");
 
 module.exports = {
   plugins: ["stylelint-order"],
@@ -12,7 +12,21 @@ module.exports = {
     "order/properties-order": [
       {
         // for reset, etc
-        properties: ["all", "apperance", "table-layout", "border-collapse"],
+        properties: [
+          "all",
+          "content",
+          "box-sizing",
+          "border-collapse",
+          "table-layout",
+          "color-scheme",
+          "apperance",
+          "cursor",
+          "user-select",
+          "list-style",
+          "list-style-position",
+          "list-style-image",
+          "list-style-type",
+        ],
       },
       {
         properties: position,
@@ -21,19 +35,19 @@ module.exports = {
         properties: layout,
       },
       {
-        properties: borderBox,
+        properties: sizing,
       },
       {
-        properties: typography,
-      },
-      {
-        properties: interaction,
+        properties: foreground,
       },
       {
         properties: background,
       },
       {
-        properties: transition,
+        properties: overflow,
+      },
+      {
+        properties: transform,
       },
     ],
   },
