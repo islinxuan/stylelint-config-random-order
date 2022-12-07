@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-random-order",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A stylelint config that sorts CSS properties with stylelint-order.",
   "keywords": [
     "stylelint",
