@@ -3,10 +3,10 @@ div {
   position: relative;
   flex: auto;
   display: flex;
-  box-sizing: border-box;
+  flex-direction: column;
   block-size: 100%;
-  font-size: 0.625rem;
-  cursor: pointer;
-  background-color: #fff;
-  transition: all 0.5s ease-in-out;
+  font: 1rem / 1.5 sans-serif;
+  background: #fff;
+  overflow: auto;
+  transform: scale(2);
 }

@@ -1,12 +1,12 @@
 div {
+  all: revert;
   position: relative;
-  box-sizing: border-box;
   display: flex;
+  flex-direction: column;
   flex: auto;
   block-size: 100%;
-  font-size: 0.625rem;
-  cursor: pointer;
-  background-color: #fff;
-  transition: all 0.5s ease-in-out;
-  all: revert;
+  font: 1rem / 1.5 sans-serif;
+  background: #fff;
+  overflow: auto;
+  transform: scale(2);
 }
